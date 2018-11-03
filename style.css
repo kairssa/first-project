@@ -1,0 +1,85 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    overflow-x: hidden;
+    font-family: 'Open Sans', sans-serif;
+    text-rendering: optimizelegibility !important ;
+}
+
+a{
+    text-decoration: none;
+    transition: all 500ms ease-in-out;
+}
+
+h1, h2, h4{
+    font-family: 'PT Sans Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-top: 10px;
+}
+
+p{
+    font-size:15px;
+    line-height: 25px;
+}
+
+.btn{
+    transition: all 300ms ease-in-out;
+    font-weight: 500 !important;
+    text-transform: uppercase;
+}
+
+.btn:hover{
+    background-color: #ededed !important;
+    color : #3c3c3c !important;
+    border: 1px solid #fff !important;
+}
+/*CONTACT*/
+.contact {
+    backgroud-color: #fff;
+    margin-top: 20px;
+}
+
+.contact .message{
+    height: 100px;
+    margin-bottom: 5px;
+}
+/*FOOTER*/
+
+.footer {
+    background-color: #fff;
+    margin-top: 20px;
+}
+
+.footer .btn{
+    margin-top: 5px;
+}
+
+.footer i{
+    font-size: 20px;
+}
+/*DONATE*/
+
+.donate {
+    background-color: #fff;
+    margin-top: 20px;
+}
+
+.donate button{
+    padding: 10px;
+    width: 100px;
+    margin: 5px;
+}
+
+.donate .btn:hover{
+    background-color: #428bca !important;
+    color:#fff !important;
+}
+
+.donate .form-control{
+    width:330px;
+    padding:10px;
+    margin:5px;
+}
